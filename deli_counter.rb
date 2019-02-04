@@ -1,6 +1,6 @@
 def line(person)
 deli =[]
-  if deli.length < person.length
+  if person.length < deli.length
     return "The line is currently empty."
   else
   person.each.with_index(1) do |name, index|
