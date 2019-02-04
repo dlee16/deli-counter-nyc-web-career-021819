@@ -12,7 +12,7 @@ puts "The line is currently empty."
 end
 end 
 
-def take_a_number(deli,name)
+def take_a_number(deli)
   deli.each_with_index do |name, index|
   puts "Welcome, #{name} You are number #{index +1} in line."
 end
