@@ -7,6 +7,6 @@ line =[]
     line.push("#{index}. #{name}")
     return line
   end
-return "The line is currently" + deli
+return "The line is currently" + line
 end
 end
