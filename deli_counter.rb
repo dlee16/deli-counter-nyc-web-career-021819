@@ -5,6 +5,7 @@ deli =[]
   else
   person.each.with_index(1) do |name, index|
     deli.push("#{index}. #{name}")
+    return deli
+  end
 return "The line is currently" + deli
-end
 end
