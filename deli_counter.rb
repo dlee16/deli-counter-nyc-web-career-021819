@@ -22,7 +22,6 @@ def now_serving(deli)
   puts "Currently serving" deli[0]"."
 end
   deli.shift
-end
 else
   puts "There is nobody waiting to be served!"
 end
