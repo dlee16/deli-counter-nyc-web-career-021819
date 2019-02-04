@@ -1,4 +1,4 @@
-def line(person)
+def line(deli)
 deli =[]
   if person.length < deli.length
     return "The line is currently empty."
