@@ -24,5 +24,5 @@ def now_serving(deli,name)
 end
   puts message +="#{name}."
 else
-  puts ""
+  puts "There is nobody waiting to be served!"
 end
