@@ -1,6 +1,6 @@
-def line
+def line(array)
 deli =[]
-  if deli.length == 0 
+  for deli.each_with_index do |name, index|
     return 
   else 
     return "The line is currently empty."
