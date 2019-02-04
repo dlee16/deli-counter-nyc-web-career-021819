@@ -13,6 +13,7 @@ end
 end 
 
 def take_a_number(deli,name)
-  
-  puts "Welcome, Ada. You are number 1 in line."
+  deli.each_with_index do |name, index|
+    deli.push()
+  puts "Welcome, #{name} You are number #{index} in line."
 end
