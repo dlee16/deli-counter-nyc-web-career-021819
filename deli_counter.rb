@@ -14,7 +14,7 @@ end
 
 def take_a_number(deli,name)
   deli.push(name)
-  deli.push("Welcome, #{name} You are number #{index +1} in line.")
+  puts "Welcome, #{name} You are number #{deli.length +1} in line."
 end
 return deli
 end
