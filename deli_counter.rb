@@ -1,8 +1,8 @@
 def line
 deli =[]
   if deli.length == 0 
-    return "The line is currently empty."
+    return 
   else 
-    return "The line is currently:"
+    return "The line is currently empty."
 end 
 end
