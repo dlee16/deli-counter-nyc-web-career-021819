@@ -18,7 +18,11 @@ def take_a_number(deli,name)
 end
 
 def now_serving(deli,name)
+  message ="Currently serving"
   if deli.length >0
-  puts "Currently serving #{name}."
   deli.unshift
+end
+  puts message +="#{name}."
+else
+  puts ""
 end
