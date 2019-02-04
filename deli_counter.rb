@@ -4,7 +4,7 @@ deli =[]
     return "The line is currently empty."
   else
   person.each.with_index(1) do |name, index|
-    deli.push("#{index + 1}. #{name}")
+    deli.push("#{index}. #{name}")
 end
 return "The line is currently" + deli
 end
