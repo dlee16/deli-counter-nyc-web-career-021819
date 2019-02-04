@@ -20,5 +20,5 @@ end
 def now_serving(deli,name)
   
   puts "Currently serving #{name}."
-  dei.unshift
+  deli.unshift
 end
