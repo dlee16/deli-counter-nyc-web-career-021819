@@ -1,5 +1,7 @@
+deli =[]
+
 def line(deli)
-line =[]
+  message= "The line is currently:"
   if line.length < deli.length
     return "The line is currently empty."
   else
