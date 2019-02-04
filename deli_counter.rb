@@ -1,7 +1,7 @@
 def line(person)
 deli =[]
   person.each_with_index do |name, index|
-    deli.push("The line is currently" +"#{index+1}.#{name}")
+    deli.push("The line is currently")
 end
 return deli
 end
