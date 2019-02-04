@@ -20,7 +20,7 @@ end
 def now_serving(deli)
   if deli.length >0
   puts "Currently serving #{deli}[0]."
-  deli.unshift
+  deli.shift
 end
  
 else
